@@ -62,6 +62,7 @@ header nav a:hover{
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/dexterNB-capa.jpg");
     background-size: cover;
     height: 400px;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,4 +75,11 @@ header nav a:hover{
 
 .titulo {
     font-size: 40px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #fff;
+    padding: 15px;
 }
