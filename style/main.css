@@ -18,31 +18,53 @@ body {
     color: #fff;
 }
 
-header .container {
-    background-color: transparent;
+header {
+    position: fixed;
+    /* border:  1px solid white; */
+    /* background-color: transparent; */
+    display: flex;
+    /* align-items: center;*/
+    justify-content: space-between; 
+    padding: 0 40px;
+    width: 100%;
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom, rgba(24, 24, 24, 0.7) 0%, rgba(58, 58, 58, 0.5) 50%,rgba(99, 99, 99, 0.2) 90%, rgba(20, 20, 20, 0.0001) 100%);
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* margin-left: 40px; */
+    /* justify-content: space-between; */
+}
+
+.rigth-icons{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 40px; */
+}
+
+.nav-menu{
+    margin-left: 10px;
 }
 
 header .logo {
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
-}
-
-header nav {
-    margin-right: 30px;
-}
-
-header nav a {
+    font-size: 25px;
     text-decoration: none;
-    color: #aaa;
-    margin-right: 10px;
+    font-weight: 500;
+    margin-right: 40px;
 }
 
-header nav a:hover{
+.list-nav{
+    text-decoration: none;
+    margin-right: 10px;
     color: #fff;
+}
+
+header div a.list-nav:hover{
+    color: #aaa;
 }
 
 /* header nav a:hover {
@@ -61,7 +83,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/dexterNB-capa.jpg");
     background-size: cover;
-    height: 400px;
+    height: 500px;
     /* width: 100%; */
     display: flex;
     flex-direction: column;
@@ -70,16 +92,45 @@ header nav a:hover{
 }
 
 .cprincipal .sinopse {
+    margin-top: 10px;
     margin-bottom: 25px;
 }
 
-.titulo {
+.cprincipal .titulo {
+    margin-top: 15%;
     font-size: 40px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'; */
 }
 
 .btn {
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(0, 0, 0, .90);
     border: none;
     color: #fff;
-    padding: 15px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .9s ease all;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btn i {
+    margin-right: 7px;
+    font-size: 22px;
+}
+
+
+.cprincipal .container {
+    width: 40%;
+}
+
+.box-filme {
+    height: 80%;
+    width: 20%;
+    display: block;
 }
