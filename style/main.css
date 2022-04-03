@@ -1,7 +1,7 @@
-:root {
+/* :root {
     --vermelho: #e50914;
     --preto: #141414;
-}
+} */
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@
 /*elementos base*/
 
 body {
-    background: var(--preto);
+    background: #141414;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
@@ -52,7 +52,7 @@ header {
 header .logo {
     position: relative;
     font-weight: 700;
-    color: var(--vermelho);
+    color: #e50914;
     text-decoration: none;
     /* font-family: 'Arial Black', Times; */
     font-size: 25px;
