@@ -13,34 +13,35 @@
 
 body {
     background: var(--preto);
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
 header {
     position: fixed;
-    /* border:  1px solid white; */
-    /* background-color: transparent; */
-    display: flex;
-    /* align-items: center;*/
-    justify-content: space-between; 
-    padding: 0 40px;
+    top: 0;
+    left: 0;
     width: 100%;
-    /* background-color: black; */
-    background-image: linear-gradient(to bottom, rgba(24, 24, 24, 0.7) 0%, rgba(58, 58, 58, 0.5) 50%,rgba(99, 99, 99, 0.2) 90%, rgba(20, 20, 20, 0.0001) 100%);
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s;
+    padding: 15px 60px;
+    z-index: 100000;
+    /* border:  1px solid white; */
+    /* background-color: transparent; */    
+    /* background-image: linear-gradient(to bottom, rgba(24, 24, 24, 0.7) 0%, rgba(58, 58, 58, 0.5) 50%,rgba(99, 99, 99, 0.2) 90%, rgba(20, 20, 20, 0.0001) 100%); */
 }
+
 
 .container {
     display: flex;
     align-items: center;
-    /* margin-left: 40px; */
-    /* justify-content: space-between; */
 }
 
 .rigth-icons{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     /* margin-right: 40px; */
 }
 
@@ -49,18 +50,21 @@ header {
 }
 
 header .logo {
+    position: relative;
+    font-weight: 700;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 25px;
     text-decoration: none;
-    font-weight: 500;
-    margin-right: 40px;
+    /* font-family: 'Arial Black', Times; */
+    font-size: 25px;
+    transition: 0.6s; 
+    margin-right: 35px;
 }
 
 .list-nav{
     text-decoration: none;
     margin-right: 10px;
     color: #fff;
+    transition: 0.6s; 
 }
 
 header div a.list-nav:hover{
@@ -79,16 +83,22 @@ header div a.list-nav:hover{
 
 /*Elementos princiapal*/
 
-.cprincipal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/dexterNB-capa.jpg");
+section.cprincipal {
+    /* font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("../img/dexterNB-capa.jpg");
     background-size: cover;
     height: 500px;
     /* width: 100%; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/dexterNB-capa.jpg");
+    background-size: cover;
+    border: 1px solid transparent;
 }
 
 .cprincipal .sinopse {
