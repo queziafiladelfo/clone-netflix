@@ -6,3 +6,4 @@ header:
 5. manipular cor do topo com o scrool 	[x]
 
 https://swiperjs.com
+https://pngimg.com/images/logos/netflix
