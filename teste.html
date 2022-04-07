@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module">
+        // import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+      
+        // const swiper = new Swiper(...)
+
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  //direction: 'vertical',
+  //loop: true,
+  spaceBetween: 5,
+            slidesPerView: 2,
+            loop: true,
+            freeMode: true,
+            loopAdditionalSlides: 5,
+            speed: 500,
+
+
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 5,
+                    //slidesPerGroup: 5,
+                    freeMode: true,
+                }
+            }
+
+});
+
+    </script>
+    
+    <style>
+        .swiper {
+            width: 1400px;
+            height: 150px;
+            border: 2px solid yellow;
+        }
+    </style>
+
+    <title>teste</title>
+</head>
+<body>
+
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset=""></div>
+      <div class="swiper-slide"><img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset=""></div>
+      <div class="swiper-slide"><img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset=""></div>
+   
+    </div>
+
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev" style="color: beige;"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+  
+    
+</body>
+</html>

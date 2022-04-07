@@ -12,6 +12,11 @@
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiperjs -->
+
     <title>Início - Netflix</title>
 </head>
 <body>
@@ -28,14 +33,16 @@
             <a class="list-nav" href="#">Minha Lista</a>
         </div>
         <div class="rigth-icons">
-            <a href="">
-                <img src="" alt="search icon">
+            <a href="#" class="margin-rigth-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- <img src="" alt="search icon"> -->
             </a>
-            <div>
-                <img src="" alt="notification">
+            <div class="margin-rigth-icons">
+                <i class="fa-solid fa-bell "></i>
+                <!-- <img src="" alt="notification"> -->
             </div>
-            <div>
-                <img src="user profile icon" alt="">
+            <div class="margin-rigth-icons">
+                <img src="./img/netflix-avatar.png" alt="user profile icon">
             </div>
         </div>
     </header>
@@ -44,130 +51,108 @@
             <!-- <div class="container"> -->
             <div>
                 <h3 class="titulo">Dexter: New Blood</h3>
-                <p class="sinopse">
-                    Passando-se 10 anos depois do desaparecimento de Dexter no olho do furacão Laura, a série encontra-o vivendo com um nome falso na pequena cidade de Iron Lake, em Nova York. Dexter pode estar abraçando sua nova vida, mas na sequência de eventos inesperados nesta região, seu passado sombrio vem à tona.
-                </p>
+                <div class="descricao-banner">
+                    <p class="sinopse">
+                        Passando-se 10 anos depois do desaparecimento de Dexter no olho do furacão Laura, a série encontra-o vivendo com um nome falso na pequena cidade de Iron Lake, em Nova York. Dexter pode estar abraçando sua nova vida, mas na sequência de eventos inesperados nesta região, seu passado sombrio vem à tona.
+                    </p>
+                </div>
+                
                 <div class="btns">
                     <button role="button" class="btn">
                         <i class="fas fa-play"></i>
                         Assitir
                     </button>
-                    <button role="button" class="btn">
+                    <button role="button" class="btn info">
                         <i class="fas fa-info-circle"></i>
                         Mais Informações
                     </button>
                 </div>
             </div>
-        </section>        
-            <div class="carrosel-filmes">
-                <h3>Teste</h3>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min02_round6.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min03_got.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min04_bb.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min05_house.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min06_cm.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min07_csi.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min08_cwb.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min09_sm.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min10_twh.jpg" alt="" srcset="">
-                    </div>
-                </div>
-                <div class="carrosel-filmes">
-                <h3>Teste</h3>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min02_round6.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min03_got.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min04_bb.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min05_house.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min06_cm.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min07_csi.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min08_cwb.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min09_sm.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-filme" src="img/min10_twh.jpg" alt="" srcset="">
-                    </div>
-                </div>
-                <div class="carrosel-filmes">
-                    <h3>Teste</h3>
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img class="box-filme" src="img/min01_Wot.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min02_round6.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min03_got.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min04_bb.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min05_house.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min06_cm.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min07_csi.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min08_cwb.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min09_sm.jpg" alt="" srcset="">
-                        </div>
-                        <div class="item">
-                            <img class="box-filme" src="img/min10_twh.jpg" alt="" srcset="">
-                        </div>
-                    </div>
+            <div class="transparencia-banner">
+                <!--  -->
+                <div class="swiper">
+                    <h3 class="genero-titulo">Séries</h3>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="box-filme" src="img/min01_SoF.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min02_castlevania.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min03_parasite.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min04_hellsing.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min05_dracula.jpg" alt="" srcset=""></div>
+                </div>            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-slide-color"></div>
+                    <div class="swiper-button-next swiper-slide-color"></div>
+    
+                </div>  
+                <!--  -->
+                <!--  -->
+                <div class="swiper">
+                    <h3 class="genero-titulo">Filmes</h3>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="box-filme" src="img/min06_sherlock.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min07_kinkdom.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min08_mal.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min09_sm.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min10_twh.jpg" alt="" srcset=""></div>
+                </div>            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-slide-color"></div>
+                    <div class="swiper-button-next swiper-slide-color"></div>
+    
+                </div>  
+                <!--  -->
+                <!--  -->
+                <div class="swiper">
+                    <h3 class="genero-titulo">Séries</h3>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="box-filme" src="img/min01_SoF.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min02_castlevania.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min03_parasite.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min04_hellsing.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min05_dracula.jpg" alt="" srcset=""></div>
+                </div>            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-slide-color"></div>
+                    <div class="swiper-button-next swiper-slide-color"></div>
+    
+                </div>  
+                <!--  -->
+                <!--  -->
+                <div class="swiper">
+                    <h3 class="genero-titulo">Filmes</h3>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="box-filme" src="img/min06_sherlock.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min07_kinkdom.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min08_mal.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min09_sm.jpg" alt="" srcset=""></div>
+                    <div class="swiper-slide"><img class="box-filme" src="img/min10_twh.jpg" alt="" srcset=""></div>
+                </div>            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-slide-color"></div>
+                    <div class="swiper-button-next swiper-slide-color"></div>
+    
+                </div>  
+                <!--  -->                    
             </div>
+            </div>
+        </section>              
     </main>
-    <footer></footer>
+    <footer>
+        <!-- Feito com 💜 por Quézia Filadelfo -->
+    </footer>
     <script src="./js/headerScroll.js"></script>
     <script src="https://kit.fontawesome.com/3cdae92a96.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="../clone-netflix/js/swiperjs.js"></script> 
 </body>
 </html>
