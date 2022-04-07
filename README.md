@@ -10,10 +10,10 @@ Este é um desafio da [Dio](#). A dio é um plataforma de ensino gratuído que f
 - [Me processo](#my-process)
   - [Ferramentas utilizadas](#built-with)
   - [O que eu aprendi](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Próximos passos](#continued-development)
+  - [Fontes de auxilio](#useful-resources)
+- [Autor](#author)
+- [Contribua](#acknowledgments)
 
 ## Overview
 
@@ -30,7 +30,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solução: [Netflix - clone](https://github.com/queziafiladelfo/clone-netflix)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [DEMO](https://queziafiladelfo.github.io/clone-netflix/)
 
 ## My processo
 
