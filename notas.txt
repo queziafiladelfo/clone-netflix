@@ -1,9 +1,0 @@
-header:
-1. logo 				[]
-2. menu ao lado do logo 		[]
-3. menu a direita com poupUp 		[]
-4. menu fixo 				[]
-5. manipular cor do topo com o scrool 	[x]
-
-https://swiperjs.com
-https://pngimg.com/images/logos/netflix
