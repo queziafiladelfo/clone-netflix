@@ -19,7 +19,7 @@ Este é um desafio da [Dio](#). A dio é um plataforma de ensino gratuído que f
 
 ### Screenshot
 
-![Tela Inicial](./img/screenshots/userPage.png)
+![Tela Inicial](./img/screenshots/Animacao.gif)
 ![](./screenshot.jpg)
 
 ### Links
