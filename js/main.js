@@ -42,3 +42,13 @@ const swiper = new Swiper('.swiper', {
     }
 
 });
+
+function menuToggle(){
+    const toggleDropdown = document.querySelector('.dropdown');
+    toggleDropdown.classList.toggle('active');
+}
+
+function perfilToggle(){
+    const toggleDropdown = document.querySelector('.dropdownPerfil');
+    toggleDropdown.classList.toggle('active');
+}
