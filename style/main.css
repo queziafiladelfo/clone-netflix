@@ -364,6 +364,15 @@ div .descricao-banner{
     /* margin-top: 120px; */
   }
 
+  .swiper-slide{
+    transition:  700ms ease;
+  }
+
+  .swiper-slide:hover{
+    transform: scale(1.45);
+    z-index: 999;
+  }
+
 div .swiper-slide-color{
     color: #fff;
 }

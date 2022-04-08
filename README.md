@@ -76,6 +76,7 @@ Tem muito ainda para melhorar, penso em adicionar algumas funcionalidades, como 
   1. Deixar a página responsiva             []
   2. Colocar video autoplay no banner       []
   3. mudar imagens staticas para um servidor de imagens []
+  4. Colocar animações nos cartões
 
 ### Useful resources
 
