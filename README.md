@@ -7,7 +7,7 @@ Este é um desafio da [Dio](#). A dio é um plataforma de ensino gratuído que f
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Me processo](#my-process)
+- [Meu processo](#my-process)
   - [Ferramentas utilizadas](#built-with)
   - [O que eu aprendi](#what-i-learned)
   - [Próximos passos](#continued-development)
@@ -27,7 +27,7 @@ Este é um desafio da [Dio](#). A dio é um plataforma de ensino gratuído que f
 - Solução: [Netflix - clone](https://github.com/queziafiladelfo/clone-netflix)
 - Live Site URL: [DEMO](https://queziafiladelfo.github.io/clone-netflix/)
 
-## My processo
+## Meu processo
 
 ### Ferramentas utilizadas
 
