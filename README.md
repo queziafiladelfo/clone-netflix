@@ -80,11 +80,11 @@ Tem muito ainda para melhorar, penso em adicionar algumas funcionalidades, como 
 
 ### Useful resources
 
-- [Imagens de logos](https://pngimg.com/images/logos/netflix) - Aqui tem algumas logos ára referência.
 - [mdn web docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Me ajudou com documentação sobre html e css.
 - [User Account Dropdown Menu using Html CSS & Vanilla Javascript](https://www.youtube.com/watch?v=04u09KBBjfM) - Vídeo sobre dropdown
 - [CSS-Only Accessible Dropdown Navigation Menu](https://dev.to/5t3ph/css-only-accessible-dropdown-navigation-menu-1f95)
 - [Search Bar Using Html CSS & javascript | CSS Expandable Search Box](https://www.youtube.com/watch?v=RctaFustg5w)
+- [icon-icons](https://icon-icons.com/pt/) - Milhares de ícones e logos gratuitos
 
 
 ## Author
